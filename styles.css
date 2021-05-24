@@ -14,9 +14,10 @@ body{
     .skills {
         padding: 10px;
     }  
-    .me {
-        float: none;
-    }
+    /* .nav-link {
+        padding-left: 100px;
+        text-align: right;
+    } */
 }
 
 p {
@@ -33,9 +34,10 @@ p {
 }
 
 .nav-link {
+    text-align: right;
     font-size: 1.5rem;
     text-decoration: none;
-    margin-left: 500px !important; 
+    margin-left: 200px !important; 
 }
 
 .top {
@@ -129,8 +131,11 @@ footer {
     font-size: 21px;
 }
 .tech {
-    font-family: Roboto;
+    font-family:Lobster;
     font-weight: 600;
+}
+.fab {
+    color: #e73d8c;
 }
 .center {
     padding: 7px 20px;
