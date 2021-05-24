@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-size: 150%;
+    background-color: #fdfaf6;
+}
+@media (max-width: 900px) {
+    body {
+        font-size: 70%;
+    }
+    h1 {
+        font-size: 16px
+    } 
+    .skills {
+        padding: 10px;
+    }  
+    .me {
+        float: none;
+    }
+}
+
+p {
+    line-height: 1.5;
+    color: beige;
+    font-family:Lobster;
+}
+
+.navbar {
+    font-family:Lobster;
+    background-color: #e73d8c;
+    font-size: 2.625rem;
+    border-radius: 7px; 
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-left: 500px !important; 
+}
+
+.top {
+    color: #fdfaf6 !important;
+}
+
+.skills {
+    display: inline-block;
+    padding: 20px;
+}
+
+h1{
+    font-family: Sacramento;
+    color: #e73d8c;
+    font-size: 5.625rem;
+    padding-bottom: 5px; 
+}
+
+h2 {
+    font-family:Lobster;
+    color: #e73d8c;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family:Open Sans Condensed;
+    color: #e73d8c;
+    font-size: 1.7rem;
+    font-weight: normal;
+}
+
+hr {
+    border:#f0a5d0 6px dotted;
+    border-bottom: none;
+    width: 10%;
+    margin: 25px auto;
+}
+
+
+footer {
+    background-color: #e73d8c;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-family: Lobster;
+    text-align: center;
+    padding: 7px 10px 0;
+    font-size: 0.75rem;
+    color: beige;
+ }
+ .icon-f {
+     padding: 5px 20px;
+     color: #FFFFFF;
+ }
+ 
+ .front-page {
+    background-image: url("dev 8.jpg");
+     height: 100%;
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+
+ .jumbotron {
+     padding: 40px;
+ }
+
+ .school {
+     padding: 0 10px;
+     font-family: Roboto;
+     color: #e73d8c;
+     font-size: 20px;
+     line-height: 1.3;
+ }
+
+.about {
+    margin: 30px auto;
+    width: 60%;
+}
+
+ .prof {
+     color: #e73d8c;
+     font-family: Roboto;
+     font-size: 21px;
+ }
+.work {
+    padding: 7px;
+    font-family: Roboto;
+    color: #e73d8c;
+    line-height: 1.3;
+    font-size: 21px;
+}
+.tech {
+    font-family: Roboto;
+    font-weight: 600;
+}
+.center {
+    padding: 7px 20px;
+}
+#quotes {
+    background-color: #e73d8c;
+    color: beige;
+    margin-bottom: 20px;
+}
+.quote-image {
+    width: 7%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.quote-text {
+    color: beige;
+    font-size: 1.5rem;
+    margin: 20px;
+    font-family: Roboto;
+}
+
+.contact {
+    color: beige;
+    font-family:Lobster;
+}
+.project {
+    padding: 50px;
+}
+.project-text {
+    color: #e73d8c;
+    font-family: Roboto;
+    font-size: 21px;
+}
+.project-link {
+    text-decoration: none;
+    color: #e73d8c;
+    font-family: Roboto;
+    font-size: 21px;
+}
+
