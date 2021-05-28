@@ -52,7 +52,7 @@ p {
 h1{
     font-family: Sacramento;
     color: #e73d8c;
-    font-size: 5.625rem;
+    font-size: 5rem;
     padding-bottom: 5px; 
 }
 
@@ -134,7 +134,7 @@ footer {
     font-family:Lobster;
     font-weight: 600;
 }
-.fab {
+.icon-s {
     color: #e73d8c;
 }
 .center {
