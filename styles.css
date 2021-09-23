@@ -14,10 +14,7 @@ body{
     .skills {
         padding: 10px;
     }  
-    /* .nav-link {
-        padding-left: 100px;
-        text-align: right;
-    } */
+    
 }
 
 p {
@@ -52,7 +49,7 @@ p {
 h1{
     font-family: Sacramento;
     color: #e73d8c;
-    font-size: 5.625rem;
+    font-size: 5rem;
     padding-bottom: 5px; 
 }
 
@@ -90,6 +87,10 @@ footer {
  .icon-f {
      padding: 5px 20px;
      color: #FFFFFF;
+ }
+
+ .fab {
+     color: #FFFFFF !important;
  }
  
  .front-page {
