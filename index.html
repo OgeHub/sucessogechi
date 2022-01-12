@@ -25,7 +25,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand top" href="index.html"> <img src="Profile Picture.png" alt=""width="50" height="50">SOE</a>
+        <a class="navbar-brand top" href="index.html"> <img src="images/Profile Picture.png" alt=""width="50" height="50">SOE</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -42,29 +42,34 @@
         <h2>Hey there</h2>
         <hr>
         <h1>I'm Success Ogechi</h1>
-        <h2>A Computer Programmer/Chemical Engineer</h2>
+        <h2>A SOFTWARE DEVELOPER</h2>
         <hr>
         <p class="skills">HTML</p>
         <p class="skills">CSS</p>
         <p class="skills">JAVASCRIPT</p>
-        <p class="skills">MERN</p>
+        <p class="skills">REACT.JS</p>
+        <p class="skills">ANGULAR.JS</p>
+        <p class="skills">NODE.JS</p>
+        <p class="skills">IONIC</p>
       </div>
   </div>
 
   <footer>
     <div class="bottom">
       <h3 class="contact">Contact me</h3>
+      <a href="https://www.linkedin.com/in/success-ezeh-1aa541210/"><i class="fab fa-linkedin-in"></i></a>
       <a href="https://www.twitter.com/SuccessOgechiE1"><i class="icon-f fab fa-twitter"></i></a>
-      <a href="https://www.facebook.com/Success Ogechi"><i class="icon-f fab fa-facebook-f"></i></a>
+      <a href="https://www.facebook.com/SuccessOgechi3"><i class="icon-f fab fa-facebook-f"></i></a>
       <a href="https://www.instagram/success.ogechi.3."> <i class="icon-f fab fa-instagram"></i></a>
       <a href="mailto:successogechiezeh@gmail.com"><i class="icon-f fas fa-envelope"></i></a>
-      <p class="copy-right">© Copyright 2021 Success Ogechi</p>
+      <p class="copy-right">© Copyright <span id="year"></span> Success Ogechi</p>
   </footer>
    
      
   </div>
-  
-  
-
+  <script> 
+  const date = new Date();
+  document.getElementById("year").innerHTML = date.getFullYear();
+   </script>
 </body>
 </html>

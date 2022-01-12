@@ -1,20 +1,7 @@
 body{
     margin: 0;
     text-align: center;
-    font-size: 150%;
-    background-color: #fdfaf6;
-}
-@media (max-width: 900px) {
-    body {
-        font-size: 70%;
-    }
-    h1 {
-        font-size: 16px
-    } 
-    .skills {
-        padding: 10px;
-    }  
-    
+    background-color: #f0e4eb;
 }
 
 p {
@@ -27,7 +14,9 @@ p {
     font-family:Lobster;
     background-color: #e73d8c;
     font-size: 2.625rem;
-    border-radius: 7px; 
+    border-radius: 0 0 20px 20px; 
+    padding: 10px 30px;
+    box-shadow: 0px 10px 20px rgba(85, 11, 69, 0.38);
 }
 
 .nav-link {
@@ -70,14 +59,13 @@ hr {
     border:#f0a5d0 6px dotted;
     border-bottom: none;
     width: 10%;
-    margin: 25px auto;
+    margin: 12px auto;
 }
 
 
 footer {
     background-color: #e73d8c;
-    border-radius: 7px;
-    color: #FFFFFF;
+    border-radius: 20px 20px 0 0;
     font-family: Lobster;
     text-align: center;
     padding: 7px 10px 0;
@@ -94,7 +82,7 @@ footer {
  }
  
  .front-page {
-    background-image: url("dev 8.jpg");
+    background-image: url("images/dev\ 8.jpg");
      height: 100%;
      width: 100%;
      background-position: center;
@@ -103,77 +91,138 @@ footer {
  }
 
  .jumbotron {
-     padding: 40px;
+     padding: 72px 40px;
  }
 
- .school {
-     padding: 0 10px;
-     font-family: Roboto;
-     color: #e73d8c;
-     font-size: 20px;
-     line-height: 1.3;
- }
 
 .about {
-    margin: 30px auto;
-    width: 60%;
+    margin-top: 30px; 
 }
 
  .prof {
      color: #e73d8c;
      font-family: Roboto;
-     font-size: 21px;
+     font-size: 1.1rem;
  }
-.work {
-    padding: 7px;
-    font-family: Roboto;
-    color: #e73d8c;
-    line-height: 1.3;
-    font-size: 21px;
-}
-.tech {
-    font-family:Lobster;
-    font-weight: 600;
-}
+
 .fab {
     color: #e73d8c;
 }
 .center {
     padding: 7px 20px;
 }
-#quotes {
+#projects {
     background-color: #e73d8c;
     color: beige;
     margin-bottom: 20px;
 }
-.quote-image {
-    width: 7%;
-    border-radius: 100%;
+  
+.project-image {
+    width: 380px;
+    height: 250px;
+    border-radius: 10px;
     margin: 20px;
 }
-.quote-text {
+
+.project-text {
     color: beige;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     margin: 20px;
     font-family: Roboto;
+}
+
+.project-link {
+    background-color: beige;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 0 20px;
+    border: 3px solid beige;
+    margin-bottom: 15px;
+}
+
+.project-link a {
+    text-decoration: none;
+    color: #e73d8c;
+}
+
+.project-link a:hover {
+    color: beige;
+}
+
+.project-link:hover {
+    text-decoration: none;
+    background-color: #e73d8c;
+    color: beige;
+    border: 3px solid beige;    
 }
 
 .contact {
     color: beige;
     font-family:Lobster;
 }
-.project {
-    padding: 50px;
-}
-.project-text {
-    color: #e73d8c;
-    font-family: Roboto;
-    font-size: 21px;
-}
-.project-link {
-    text-decoration: none;
-    color: #e73d8c;
-    font-family: Roboto;
-    font-size: 21px;
+
+.card {
+    background-color: #f0e4eb;
+    box-shadow: 0px 10px 20px rgba(85, 11, 69, 0.38);
+    margin-bottom: 20px;
 }
 
+.card-text {
+    color: #e73d8c;
+    font-family: Roboto;
+}
+
+.btn {
+    background-color: #e73d8c;
+    color: #f0e4eb;
+}
+
+.btn:hover {
+    background-color: #f0e4eb;
+    color: #e73d8c;
+    border: 2px solid #e73d8c
+}
+
+@media screen and (max-width: 600px) {
+   h1 {
+       font-size: 2.3rem;
+   }
+   h2 {
+       font-size: 1.3rem;
+   }
+   .jumbotron {
+    padding: 24px 10px;
+    }
+    .nav-link {
+        font-size: 0.85rem;
+        margin-left: 100px !important;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    .project-image {
+        width: 190px;
+        height: 130px;
+        margin: 10px;
+    }
+    
+  }
+
+  @media screen and (max-width: 1000px) {
+    .about-img {
+        width: 300px;
+    }
+    .prof {
+        font-size: 0.8rem;
+    }
+    hr {
+        border:#f0a5d0 3px dotted;
+        margin: 2px auto;
+    }
+    .project-text {
+        font-size: 0.80rem;
+    }
+    .card-text {
+        font-size: 0.85rem;
+    }
+  }
