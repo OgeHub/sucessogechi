@@ -68,10 +68,9 @@ footer {
     border-radius: 20px 20px 0 0;
     font-family: Lobster;
     text-align: center;
-    padding: 7px 10px 0;
+    padding: 7px 10px 7px;
     font-size: 0.75rem;
     color: beige;
-    margin-bottom: 0 !important;
  }
 
  .icon-f {
