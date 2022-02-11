@@ -71,6 +71,11 @@ footer {
     padding: 7px 10px 0;
     font-size: 0.75rem;
     color: beige;
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    height: auto;
  }
  .icon-f {
      padding: 5px 20px;
