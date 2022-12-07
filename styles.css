@@ -232,3 +232,16 @@ footer {
     font-size: 0.85rem;
   }
 }
+
+@media screen and (max-height: 700px) {
+  .front-page {
+    margin-bottom: 70px;
+  }
+  footer {
+    margin-top: 100px;
+    margin-bottom: 0;
+  }
+  .jumbotron {
+    margin-top: 40px;
+  }
+}
