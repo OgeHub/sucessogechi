@@ -3,76 +3,211 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Success Ogechi</title>
+  <title>Success Ezeh | Backend Developer</title>
 
-  <!-- CSS only -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Redressed&family=Sacramento&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-  
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
-  
-<script src="https://kit.fontawesome.com/4d55b39f54.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+
+  <link rel="icon" href="./favicons/icon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-32x32.png">
+  <link rel="manifest" href="./favicons/site.webmanifest">
+
+  <script src="https://kit.fontawesome.com/4d55b39f54.js" crossorigin="anonymous"></script>
 </head>
-<body class="front-page">
-  <div>
+<body>
+  <!-- Hero Section -->
+  <section class="hero d-flex flex-column justify-content-center align-items-center text-center">
+    <h1>Hi, I'm Success Ezeh</h1>
+    <p class="hero-subtitle">
+      Backend Development • Scalable API • Database Management
+    </p>
+   <p class="hero-description">
+    4+ years designing and building secure backend systems that power web and mobile applications.
+    </p>
+    <div class="hero-buttons mt-3">
+      <a href="https://github.com/OgeHub" class="btn btn-outline-light me-2">GitHub</a>
+      <a href="https://drive.google.com/file/d/16N14wGpsmak4Qi7a6PdyQxHhdIgsoEkl/view?usp=sharing" class="btn btn-outline-light">Resume</a>
+    </div>
+  </section>
 
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand top" href="index.html"> <img src="images/Profile Picture.png" alt=""width="50" height="50">SOE</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link top" href="pages/about.html">ABOUT ME</a>
-            <a class="nav-link top" href="pages/projects.html">PROJECTS</a>
-          </div>
+  <!-- ABOUT -->
+  <section class="about container my-5">
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center mb-4">
+        <img
+          src="../images/SE.JPG"
+          class="about-img img-fluid"
+          alt="Success Ezeh"
+        >
+      </div>
+
+      <div class="col-md-8 about-text">
+        <h2>About Me</h2>
+
+        <p>
+          I’m a backend engineer with over <strong>4 years of experience</strong> designing and implementing scalable, secure backend systems. 
+          I specialize in building RESTful APIs, database-driven applications, and maintainable backend architectures using <strong>Node.js</strong>, 
+          <strong>Express</strong>, <strong>NestJS</strong>, <strong>MongoDB</strong>, and <strong>PostgreSQL</strong>.
+        </p>
+
+        <p>
+          I’ve worked with startups across <strong>FinTech (B2B SaaS)</strong>, <strong>Travel Tech</strong>, <strong>Marketplace</strong>, 
+          <strong>Social Media Platforms</strong>, and <strong>E-commerce</strong>, delivering backend systems that power web and mobile applications. 
+          My focus is on building maintainable architectures, optimizing performance, integrating third-party services, and deploying cloud-native solutions 
+          on <strong>AWS</strong> and <strong>Azure</strong>.
+        </p>
+
+        <p>
+          Beyond coding, I emphasize clean architecture, scalability, and maintainability, working closely with product and frontend teams to ensure backend solutions 
+          align with business goals and support long-term growth.
+        </p>
+
+        <p>
+          Outside of work, I enjoy knowledge sharing, reading, watching movies, and traveling for adventure.
+        </p>
+      </div>
+    </div>
+  </section>
+
+    <!-- Skills Section -->
+  <section class="skills bg-dark text-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Core Skills</h2>
+
+      <div class="row gy-4">
+        
+        <!-- Languages & Frameworks -->
+        <div class="col-md-6 col-lg-3">
+          <h6 class="skill-category">Languages & Frameworks</h6>
+          <ul class="skill-list">
+            <li class="skill-chip">Node.js</li>
+            <li class="skill-chip">TypeScript</li>
+            <li class="skill-chip">Express.js</li>
+            <li class="skill-chip">NestJS</li>
+            <li class="skill-chip">Golang (Learning)</li>
+          </ul>
+        </div>
+
+      <!-- Databases -->
+      <div class="col-md-6 col-lg-3">
+        <h6 class="skill-category">Databases</h6>
+        <ul class="skill-list">
+          <li class="skill-chip">MongoDB</li>
+          <li class="skill-chip">Mongoose</li>
+          <li class="skill-chip">PostgreSQL</li>
+          <li class="skill-chip">Sequelize</li>
+          <li class="skill-chip">Redis (Caching)</li>
+          <li class="skill-chip">Schema Design & Data Modeling</li>
+        </ul>
+      </div>
+
+
+        <!-- Architecture & Systems -->
+        <div class="col-md-6 col-lg-3">
+          <h6 class="skill-category">Architecture & Systems</h6>
+          <ul class="skill-list">
+            <li class="skill-chip">RESTful API Design</li>
+            <li class="skill-chip">Event-Driven Systems</li>
+            <li class="skill-chip">WebSockets & Realtime Systems</li>
+            <li class="skill-chip">Modular & Layered Architecture</li>
+            <li class="skill-chip">Background Jobs & Queues</li>
+            <li class="skill-chip">Service Integrations & Webhooks</li>
+            <li class="skill-chip">Authentication & Authorization</li>
+            <li class="skill-chip">Role-Based Access Control (RBAC)</li>
+          </ul>
+        </div>
+
+    <!-- Infrastructure & Cloud -->
+    <div class="col-md-6 col-lg-3">
+      <h6 class="skill-category">Infrastructure & Cloud</h6>
+      <ul class="skill-list">
+        <li class="skill-chip">Version Control (Git)</li>
+        <li class="skill-chip">Containerization (Docker)</li>
+        <li class="skill-chip">Cloud Platforms (AWS, Azure, Render)</li>
+        <li class="skill-chip">Cloud Storage (S3, Cloudinary)</li>
+        <li class="skill-chip">CI/CD Pipelines (GitHub Actions)</li>
+        <li class="skill-chip">Monitoring & Logging</li>
+        <li class="skill-chip">Metrics & Dashboards (Grafana)</li>
+      </ul>
+    </div>
+
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="container my-5">
+    <h2 class="text-center mb-5">Backend Projects</h2>
+
+    <!-- Blog API -->
+    <div class="project-row row align-items-center mb-5">
+      <div class="col-md-5">
+        <img
+          src="../images/blog-api.png"
+          class="img-fluid project-img"
+          alt="Explore API architecture"
+        />
+      </div>
+
+      <div class="col-md-7">
+        <h4>Explore</h4>
+
+        <p class="project-why">
+          <b>Description:</b><br>
+          Explore is a scalable, secured and maintainable RESTful API inspired by content
+          platforms like Medium. It powers a blogging application where users can
+          securely authenticate, publish content, interact with posts, and manage
+          subscriptions.
+        </p>
+
+        <p>
+          <b>Technologies:</b>
+          Node.js, Express, TypeScript, MongoDB, Mongoose, Cloudinary, Render, Brevo, Docker
+        </p>
+
+        <p>
+          <b>Key Capabilities:</b>
+          User authentication and email verification, account recovery flows,
+          content creation and management, user interactions (comments, replies,
+          claps), and subscription handling.
+        </p>
+
+        <div class="mt-3">
+          <a
+            href="https://documenter.getpostman.com/view/36760391/2sBXVckY58"
+            class="btn btn-primary me-2"
+          >
+            API Docs
+          </a>
+          <a
+            href="https://github.com/OgeHub/blog"
+            class="btn btn-outline-secondary"
+          >
+            GitHub
+          </a>
         </div>
       </div>
-    </nav>
-    
-    <div class="jumbotron centered">
-      <div class="container-fluid">
-        <h2>Hey there</h2>
-        <hr>
-        <h1>I'm Success Ogechi</h1>
-        <h2>A SOFTWARE DEVELOPER</h2>
-        <hr>
-        <p class="skills">JAVASCRIPT</p>
-        <p class="skills">NODE.JS</p>
-        <p class="skills">EXPRESS.JS</p>
-        <p class="skills">TYPESCRIPT</p>
-        <p class="skills">NEST.JS</p>
-        <p class="skills">MONGODB</p>
-        <p class="skills">MY SQL</p>
-        <p class="skills">DYNAMODB</p>
-      </div>
-  </div>
+    </div>
+  </section>
 
-
-  <footer class="coontainer-fluid">
-      <h3 class="contact">Contact me</h3>
+  <!-- Contact / Footer -->
+  <footer class="bg-dark text-light text-center py-4">
+    <h3>Contact Me</h3>
+    <div class="social-icons mb-3">
       <a href="https://www.linkedin.com/in/success-ezeh/"><i class="fab fa-linkedin-in"></i></a>
-      <a href="https://www.twitter.com/oge_hub"><i class="icon-f fab fa-twitter"></i></a>
-      <a href="https://www.facebook.com/SuccessOgechi3"><i class="icon-f fab fa-facebook-f"></i></a>
-      <a href="https://www.instagram/success.ogechi.3."> <i class="icon-f fab fa-instagram"></i></a>
-      <a href="mailto:successogechiezeh@gmail.com"><i class="icon-f fas fa-envelope"></i></a>
-      <a href="https://medium.com/@ezehsuccess0476"><i class="icon-f fab fa-medium"></i></a>
-      <p class="copy-right">© Copyright <span id="year"></span> Success Ogechi</p>
+      <a href="https://www.x.com/oge_hub"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.facebook.com/SuccessOgechi3"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/success.ogechi.3"><i class="fab fa-instagram"></i></a>
+      <a href="mailto:successogechiezeh@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://medium.com/@ezehsuccess0476"><i class="fab fa-medium"></i></a>
+    </div>
+    <p>© <span id="year"></span> Success Ezeh</p>
   </footer>
-   
-     
-  
-  <script> 
-  const date = new Date();
-  document.getElementById("year").innerHTML = date.getFullYear();
-   </script>
+
+  <script>
+    const date = new Date();
+    document.getElementById("year").innerHTML = date.getFullYear();
+  </script>
 </body>
 </html>
